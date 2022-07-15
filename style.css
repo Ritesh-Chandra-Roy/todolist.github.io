@@ -1,0 +1,41 @@
+.container{
+    margin: 10% 20% 20%;
+    border: 20px groove blueviolet;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    margin: 8px;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.0rem;
+}
+table{
+    /* border: 2px solid blueviolet; */
+    border-radius: 10px;
+    font-family: 'consolas';
+}
+form input{
+    padding: 10px;
+    border: 1px dotted blueviolet;
+    border-radius: 20px;
+}
+thead tr, td{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+}
+#action{
+    background-color: black;
+}
