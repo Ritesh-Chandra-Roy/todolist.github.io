@@ -6,7 +6,7 @@
             document.getElementById('msg').innerHTML = '';
             let name = document.getElementById('name').value;
             if(name==''){
-                document.getElementById('msg').innerHTML='Please enter your name';
+                document.getElementById('msg').innerHTML='Please enter a task';
             }
             else{
                 console.log(id);
